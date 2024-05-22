@@ -9,24 +9,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 
 <body>
     <div class="Big-Box">
         <input class="city-input" placeholder="City name here !">
-        <button class="search-button">
+        <button class="search-button" onclick="buttomClicked()">
             <img class="search-img" alt="Search" src="https://www.svgrepo.com/show/488200/find.svg">
         </button>
+        <div class="medium-box">
+            <h2 class="city">Tempo em Fortaleza</h2>
 
-        <h2>Tempo em Fortaleza</h2>
+            <p class="temp">28ºC</p>
 
-        <p>28ºC</p>
 
-        <img alt="Icone-Info-Tempo" src="https://openweathermap.org/img/wn/04n.png">
-        <p>Parcialmente Nublado</p>
+            <div class="small-box">
+                <img class="img-previsao" alt="Icone-Info-Tempo" src="https://openweathermap.org/img/wn/04n.png">
+                <p class="text-previsao">Parcialmente Nublado</p>
 
-        <p>Umidade: 89%</p>
+            </div>
 
+
+            <p class="umidade">Umidade: 89%</p>
+        </div>
     </div>
 </body>
 

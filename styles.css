@@ -19,6 +19,8 @@ body {
     opacity: 0.7;
     border-radius: 27px;
     padding: 30px;
+    width: 95%;
+    max-width: 450px;
 }
 
 .city-input {
@@ -29,7 +31,7 @@ body {
     font-size: 15px;
     background-color: #7c7c7c2b;
     color: #ffffff;
-    width: calc(100% - 50px);
+    width: calc(100% - 70px);
 }
 
 .search-button {
@@ -44,4 +46,37 @@ body {
 
 .search-img {
     width: 20px;
+}
+
+.medium-box {
+    margin-top: 30px;
+}
+
+.city {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.temp {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.small-box {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.text-previsao {
+    color: #ffffff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.umidade {
+    color: #ffffff;
+    margin-top: 20px;
 }
