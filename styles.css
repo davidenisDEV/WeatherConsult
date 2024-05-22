@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+.Big-Box {
+    background: #000000;
+    opacity: 0.7;
+    border-radius: 27px;
+    padding: 30px;
+}
+
+.city-input {
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc(100% - 50px);
+}
+
+.search-button {
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+}
+
+.search-img {
+    width: 20px;
+}
